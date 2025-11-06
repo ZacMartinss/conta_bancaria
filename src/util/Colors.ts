@@ -1,25 +1,43 @@
-export const reset = "\x1b[0m";
-export const bright = "\x1b[1m";
-export const dim = "\x1b[2m";
-export const underscore = "\x1b[4m";
-export const blink = "\x1b[5m";
-export const reverse = "\x1b[7m";
-export const hidden = "\x1b[8m";
-
-export const fgBlack = "\x1b[30m";
-export const fgRed = "\x1b[31m";
-export const fgGreen = "\x1b[32m";
-export const fgYellow = "\x1b[33m";
-export const fgBlue = "\x1b[34m";
-export const fgMagenta = "\x1b[35m";
-export const fgCyan = "\x1b[36m";
-export const fgWhite = "\x1b[37m";
-
-export const bgBlack = "\x1b[40m";
-export const bgRed = "\x1b[41m";
-export const bgGreen = "\x1b[42m";
-export const bgYellow = "\x1b[43m";
-export const bgBlue = "\x1b[44m";
-export const bgMagenta = "\x1b[45m";
-export const bgCyan = "\x1b[46m";
-export const bgWhite = "\x1b[47m";
+export const colors = {
+    reset: "\x1b[0m",  
+    fg: {
+        black: "\x1b[30m",
+        red: "\x1b[31m",
+        green: "\x1b[32m",
+        yellow: "\x1b[33m",
+        blue: "\x1b[34m",
+        magenta: "\x1b[35m",
+        cyan: "\x1b[36m",
+        white: "\x1b[37m",
+        gray: "\x1b[90m",
+        crimson: "\x1b[38m",
+        blackstrong : "\x1b[1;30m",
+        redstrong : "\x1b[1;31m",
+	    greenstrong : "\x1b[1;32m",
+	    yellowstrong : "\x1b[1;33m", 
+	    bluestrong : "\x1b[1;34m",
+	    magentastrong : "\x1b[1;35m",
+	    cyanstrong : "\x1b[1;36m",
+        whitestrong: "\x1b[1;37m",
+    },
+    bg: {
+        black: "\x1b[40m",
+        red: "\x1b[41m",
+        green: "\x1b[42m",
+        yellow: "\x1b[43m",
+        blue: "\x1b[44m",
+        magenta: "\x1b[45m",
+        cyan: "\x1b[46m",
+        white: "\x1b[47m",
+        gray: "\x1b[100m",
+        crimson: "\x1b[48m",
+        blackbright: "\x1b[0;100m",
+        redbright: "\x1b[0;101m",
+        greenbright: "\x1b[0;102m",
+        yellowbright: "\x1b[0;103m",
+        bluebright: "\x1b[0;104m",
+        magentabright: "\x1b[0;105m",
+        cyanbright: "\x1b[0;106m",
+        whitebright: "\x1b[0;107m"
+    }
+};
